@@ -11,7 +11,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://github.com/yinxiaobai/isTest
+url: http://github.com/yinxiaobai/blogTest
 root: /isTest/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -147,5 +147,5 @@ theme: huxblog
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:yinxiaobai/isTest.git
-  branch: master
+  repo: git@github.com:yinxiaobai/blogTest.git
+  branch: gh-pages

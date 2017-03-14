@@ -11,8 +11,8 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://github.com/yinxiaobai/isTest
-root: /isTest/
+url: http://github.com/yinxiaobai/blogTest
+root: /blogTest/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -40,10 +40,10 @@ anchorjs: true                          # if you want to customize anchor. check
 
 
 # Disqus settings
-disqus_username: isTest
+disqus_username: blogTest
 
 # Duoshuo settings
-# duoshuo_username: isTest.github.io.git 
+# duoshuo_username: blogTest.github.io.git 
 # on: true 
 # Share component is depend on Comment so we can NOT use share only.
 duoshuo_share: true                     # set to false if you want to use Comment without Sharing
@@ -148,5 +148,5 @@ theme: huxblog
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:yinxiaobai/isTest.git
+  repo: git@github.com:yinxiaobai/blogTest.git
   branch: gh-pages
